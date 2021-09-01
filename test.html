@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="../js/turn.js"></script>
+<script type="text/javascript">
+	$(window).ready(function() {
+		$('#magazine').turn();
+	});
+</script>
+
+<style type="text/css">
+h1{
+	color:cornsilk;
+}
+body{
+	
+    margin: 0;
+    padding: 0;
+    background-image:url(../img/background2.jpg);/*背景*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color:#464646;
+    
+}
+#magazine{
+	width:1152px;
+	height:752px;
+}
+#magazine .turn-page{
+	background-color:#ccc;
+	background-size:100% 100%;
+}
+</style>
+</head>
+<body>
+<h1>ながはまさん写真集</h1>
+<div id="magazine">
+	<div style="background-image:url(image/ngh.games2.jpg); background-size:cover"></div>
+	<div style="background-image:url(image/test.png); background-size:cover"></div>
+	<div style="background-image:url(image/ngh1.jpg);background-size:cover"></div>
+	<div style="background-image:url(image/test2.png);background-size:cover"></div>
+	<div style="background-image:url(image/ngh2.jpg);background-size:cover"></div>
+	<div style="background-image:url(image/ngh4.jpg);background-size:cover"></div>
+	<div style="background-image:url(image/ngh5.jpg);background-size:cover"></div>
+	<div style="background-image:url(image/tks1.jpg);background-size:cover"></div>
+</div>
+<p><a href="index.html">workへ戻る</a></p>
+</body>
+</html>

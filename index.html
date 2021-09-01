@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+<link rel="stylesheet" href="../css/main.css" type="text/css">
+<link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+</head>
+<body> 
+    <header>
+        <h1>
+            <a href="../toppage.html">MyPortfolio</a>
+        </h1>
+        <nav class="pc-nav">
+            <ul>
+                <li><a href="../index.html"><div id="app"><div class="animated">top</div></div></a></li>
+                <li><a href="../profile/index.html"><div id="app"><div class="animated">profile</div></div></a></li>
+                <li><a href="../skill/index.html"><div id="app"><div class="animated">skill</div></div></a></li>
+                <li><a href="../works/index.html"><div id="app"><div class="animated">work</div></div></a></li>
+                <li><a>contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script type="text/javascript" src="../js/type.js"></script>
+
+    <div class="paper">
+        <div class="lines">
+        <div class="text">
+        <h1 class="font-size">Contact</h1>
+        <form id ="contact_form" action="../php?dummy.php" mehod="post">
+            <dl>
+                <dt>お名前、会社名</dt>
+                    <dd><input type="text" name="name"><br></dd>
+                <dt>メールアドレス</dt>
+                    <dd><input type="email" name="mail"><br></dd>
+                <dt>お住みの場所
+                    
+                </dt>
+                    <dd>
+                        <select name="bring">
+                        <option value="北海道地方">北海道地方</option>
+                        <option valie="東北地方">東北地方</option>
+                        <option value="関東地方">関東地方</option>
+                        <option value="中部地方">中部地方</option>
+                        <option value="近畿地方">近畿地方</option>
+                        <option value="中国地方">中国地方</option>
+                        <option value="四国地方">四国地方</option>
+                        <option value="九州地方">九州地方</option>
+                        <option value="沖縄県">沖縄県</option>
+                    </select>
+                    <br></dd>
+                <dt>お問い合わせ内容</dt>
+                    <dd><input type="checkbox" name="inquiry-1" value="お仕事に関して"> お仕事に関して</dd>
+                    <dd><input type="checkbox" name= inquiry-2 value="ご相談">ご相談</dd>
+                    <dd><input type="checkbox" name= "inquiry-3" value="その他"> その他</dd>
+                    <dd><textarea name ="comment" width="300"></textarea><br></dd>
+            </dl>
+            <input type="reset" value="リセット">
+            <input type="submit" value="送信する">
+        </form>
+        <div class="font-size"><br>
+            <p><a href="../index.html"><div id="app"><div class="animated">top</div></div></a></p>
+            <p><a href="../profile/index.html"><div id="app"><div class="animated">profile</div></div></a></p>
+            <P><a href="../skill/index.html"><div id="app"><div class="animated">skill</div></div></a></p>
+            <p><a href="../works/index.html"><div id="app"><div class="animated">works</div></div></a></p>
+        </div>
+
+        </div>
+        </div>
+        <div class="holes hole-top"></div>
+        <div class="holes hole-middle"></div>
+        <div class="holes hole-bottom"></div>
+    </div>
+    
+    
+</body>
+</html>

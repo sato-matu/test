@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>slidesample</title>
+    </head>
+    <body>
+        <h1>簡易スライドショー</h1>
+<img loading="lazy" id="mypic" src="image/curry01.jpg" width="400" height="300">
+<script>
+    const pics_src = ["image/curry01.jpg","image/curry02.jpg","image/curry03.png","image/sakura.png"];
+let num = -1;
+function slideshow_timer(){
+    if (num === 2){
+        num = 0;
+    } 
+    else {
+    num ++;
+    }   
+    document.getElementById("mypic").src = pics_src[num];
+    }
+
+setInterval(slideshow_timer, 1000);
+</script>
+<p><a href="index.html">workへ戻る</a></p>
+</body>

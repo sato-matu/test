@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* ユニバーサルセレクタでデフォルトの余白をリセット */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* サイト共通コンテナ */
+.container {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+header {
+	margin-bottom: 30px;
+}
+
+#katudon_turn {
+	width: 600px;
+	height: 425px;
+	margin: 0 auto;
+}
+
+ul {
+	text-align: center;
+	list-style: none;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+ul li {
+	width: 50%;
+	float: left;
+}
+
+ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#prevpage, #nextpage {
+	cursor: pointer;
+}
